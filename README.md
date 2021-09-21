@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+2 models - Course & Tutor
 
-Things you may want to cover:
+-A course can have many tutors.
+-Tutor can teach one course only.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+Added the following:
+  
+  1. Common POST API to create a course & its tutors
+  2. GET API to list all the courses along with their tutors
+  3. Add Rspecs / Write complete test cases for API's
 * ...
